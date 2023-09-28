@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TR5-L6-adR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TR5-L6-adR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <accessibilityOverrides isEnabled="YES"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +13,7 @@
         <!--loginPage-->
         <scene sceneID="3CS-Gj-WjC">
             <objects>
-                <viewController storyboardIdentifier="loginPage" title="loginPage" interactionActivityTrackingBaseName="loginPage" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HsB-oX-eQ7" customClass="LoginViewController" customModule="TalkidoQR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginPage" title="loginPage" interactionActivityTrackingBaseName="loginPage" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HsB-oX-eQ7" customClass="LoginViewController" customModule="WINTO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="a5O-nW-eu7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
         <!--Control View Controller-->
         <scene sceneID="CR9-iN-N7G">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="rjy-cX-PzJ" customClass="ControlViewController" customModule="TalkidoQR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="rjy-cX-PzJ" customClass="ControlViewController" customModule="WINTO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B0l-co-ZhQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +126,7 @@
                                 <rect key="frame" x="0.0" y="349" width="414" height="537"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="115" id="9RG-Hm-Kib" customClass="TableViewCell" customModule="TalkidoQR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="115" id="9RG-Hm-Kib" customClass="TableViewCell" customModule="WINTO" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="115"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9RG-Hm-Kib" id="CIi-Zg-49X">
@@ -260,7 +260,7 @@
         <!--Late Comers View Controller-->
         <scene sceneID="bN4-a5-xup">
             <objects>
-                <viewController id="BmK-vX-YKb" customClass="LateComersViewController" customModule="TalkidoQR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BmK-vX-YKb" customClass="LateComersViewController" customModule="WINTO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rgo-Ah-0k6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -276,7 +276,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="k1F-RL-59s">
                                 <rect key="frame" x="20" y="317" width="374" height="550"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCell" rowHeight="100" id="Usg-Gk-rwd" customClass="LateComersTableViewCell" customModule="TalkidoQR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCell" rowHeight="100" id="Usg-Gk-rwd" customClass="LateComersTableViewCell" customModule="WINTO" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="374" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Usg-Gk-rwd" id="IBm-oW-9Xv">
@@ -366,7 +366,7 @@
         <!--homePage-->
         <scene sceneID="myO-IL-3Om">
             <objects>
-                <viewController storyboardIdentifier="homePage" title="homePage" interactionActivityTrackingBaseName="homePage" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TR5-L6-adR" customClass="ViewController" customModule="TalkidoQR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homePage" title="homePage" interactionActivityTrackingBaseName="homePage" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TR5-L6-adR" customClass="ViewController" customModule="WINTO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NP9-h8-htr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -549,7 +549,7 @@
         <!--Online View Controller-->
         <scene sceneID="UZ7-ea-UgZ">
             <objects>
-                <viewController id="7T3-xx-Scg" customClass="OnlineViewController" customModule="TalkidoQR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7T3-xx-Scg" customClass="OnlineViewController" customModule="WINTO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cij-gm-Lsz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,7 +558,7 @@
                                 <rect key="frame" x="17" y="97" width="380" height="526"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCell" id="45e-KU-tBA" customClass="OnlineTableViewCell" customModule="TalkidoQR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCell" id="45e-KU-tBA" customClass="OnlineTableViewCell" customModule="WINTO" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="380" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="45e-KU-tBA" id="JVm-z1-WFL">
@@ -632,7 +632,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="W7h-bs-QqI">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="tPg-fV-IPh" customClass="SignUpViewController" customModule="TalkidoQR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="tPg-fV-IPh" customClass="SignUpViewController" customModule="WINTO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="cnr-lO-AEi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -657,18 +657,18 @@
                                                     <constraint firstAttribute="height" constant="60" id="d5I-1p-S8z"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="Hesap oluşturun">
+                                                    <fragment content="Hesap oluştur">
                                                         <attributes>
-                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <font key="NSFont" size="31" name="MarkerFelt-Thin"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="28" name="MarkerFelt-Thin"/>
                                                             <font key="NSOriginalFont" size="31" name="MarkerFelt-Thin"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content=".">
+                                                    <fragment content="alım.">
                                                         <attributes>
-                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <font key="NSFont" size="31" name="MarkerFelt-Thin"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="28" name="MarkerFelt-Thin"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -782,14 +782,14 @@
     </scenes>
     <resources>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="124"/>
-        <image name="entry.lever.keypad.fill" catalog="system" width="104" height="128"/>
+        <image name="entry.lever.keypad.fill" catalog="system" width="106" height="128"/>
         <image name="logo" width="1024" height="1024"/>
-        <image name="person.badge.key.fill" catalog="system" width="128" height="116"/>
+        <image name="person.badge.key.fill" catalog="system" width="128" height="125"/>
         <image name="person.fill.questionmark.rtl" catalog="system" width="128" height="102"/>
         <image name="qrcode.viewfinder" catalog="system" width="128" height="115"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

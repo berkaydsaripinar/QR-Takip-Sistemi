@@ -73,7 +73,7 @@
 		C86F4BCE2A78E2150031C1DA /* LateComersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateComersViewController.swift; sourceTree = "<group>"; };
 		C88FCE132A69A74B0070D271 /* OnlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
 		C8949FD82A886FC900271271 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		C897AEDD2AB4E320005E8AA6 /* TalkidoQR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TalkidoQR.entitlements; sourceTree = "<group>"; };
+		C897AEDD2AB4E320005E8AA6 /* WINTO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WINTO.entitlements; sourceTree = "<group>"; };
 		C897AEDE2AB4EE72005E8AA6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C8FA5E902A6AE3390041CAC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -139,7 +139,7 @@
 		840559D02A52BD81008E01F7 /* WINTO */ = {
 			isa = PBXGroup;
 			children = (
-				C897AEDD2AB4E320005E8AA6 /* TalkidoQR.entitlements */,
+				C897AEDD2AB4E320005E8AA6 /* WINTO.entitlements */,
 				C88FCE1B2A69DC580070D271 /* Sources */,
 				C88FCE1A2A69DC3A0070D271 /* Views */,
 				C88FCE192A69DC140070D271 /* TableViews */,
