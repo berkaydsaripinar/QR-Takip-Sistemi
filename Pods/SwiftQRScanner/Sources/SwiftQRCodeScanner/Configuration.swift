@@ -14,6 +14,7 @@ public struct QRScannerConfiguration {
     public var hint: String?
     public var invalidQRCodeAlertTitle: String
     public var invalidQRCodeAlertActionTitle: String
+    public var uploadFromPhotosTitle: String
     public var cameraImage: UIImage?
     public var flashOnImage: UIImage?
     public var galleryImage: UIImage?
@@ -25,9 +26,10 @@ public struct QRScannerConfiguration {
     public var cancelButtonTitle: String
     public var cancelButtonTintColor: UIColor?
     
-    public init(title: String = "QR Kodu Tara",
-                hint: String = "QR Kodu çerçeveye ortala",
-                invalidQRCodeAlertTitle: String = "Başarılı QR Kod Okuma",
+    public init(title: String = "Scan QR Code",
+                hint: String = "Align QR code within frame to scan",
+                uploadFromPhotosTitle: String = "Upload from photos",
+                invalidQRCodeAlertTitle: String = "Invalid QR Code",
                 invalidQRCodeAlertActionTitle: String = "OK",
                 cameraImage: UIImage? = nil,
                 flashOnImage: UIImage? = nil,
@@ -40,6 +42,7 @@ public struct QRScannerConfiguration {
                 cancelButtonTintColor: UIColor? = nil) {
         self.title = title
         self.hint = hint
+        self.uploadFromPhotosTitle = uploadFromPhotosTitle
         self.invalidQRCodeAlertTitle = invalidQRCodeAlertTitle
         self.invalidQRCodeAlertActionTitle = invalidQRCodeAlertActionTitle
         self.cameraImage = cameraImage
@@ -58,6 +61,7 @@ extension QRScannerConfiguration {
     public static var `default`: QRScannerConfiguration {
         QRScannerConfiguration(title: "Scan QR Code",
                                hint: "Align QR code within frame to scan",
+                               uploadFromPhotosTitle: "Upload from photos",
                                invalidQRCodeAlertTitle: "Invalid QR Code",
                                invalidQRCodeAlertActionTitle: "OK",
                                cameraImage: nil,

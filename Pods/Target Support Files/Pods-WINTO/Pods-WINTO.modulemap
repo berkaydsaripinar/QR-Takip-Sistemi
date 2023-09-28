@@ -1,0 +1,6 @@
+framework module Pods_WINTO {
+  umbrella header "Pods-WINTO-umbrella.h"
+
+  export *
+  module * { export * }
+}

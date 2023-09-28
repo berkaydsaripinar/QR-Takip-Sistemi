@@ -167,9 +167,32 @@ public class QRCodeScannerController: UIViewController,
         qrFramedView.color = qrScannerConfiguration.color
         qrFramedView.autoresizingMask = UIView.AutoresizingMask(rawValue: UInt(0.0))
         self.view.addSubview(qrFramedView)
-      
+        if qrScannerConfiguration.readQRFromPhotos {
+            addPhotoPickerButton(frame: CGRect(origin: CGPoint(x: self.view.frame.midX - width/2,
+                                                               y: roundViewFrame.origin.y + width + 30),
+                                               size: CGSize(width: self.view.frame.size.width/2.2, height: 36)))
+        }
+        
     }
-
+    
+    private func addPhotoPickerButton(frame: CGRect) {
+        let photoPickerButton = UIButton(frame: frame)
+        let buttonAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.black]
+        let attributedTitle = NSMutableAttributedString(string: qrScannerConfiguration.uploadFromPhotosTitle, attributes: buttonAttributes)
+        photoPickerButton.setAttributedTitle(attributedTitle, for: .normal)
+        photoPickerButton.center.x = self.view.center.x
+        photoPickerButton.backgroundColor = UIColor.white.withAlphaComponent(0.8)
+        photoPickerButton.layer.cornerRadius = 18
+        if let galleryImage = qrScannerConfiguration.galleryImage {
+            photoPickerButton.setImage(galleryImage, for: .normal)
+            photoPickerButton.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
+            photoPickerButton.titleEdgeInsets.left = 10
+        }
+        photoPickerButton.addTarget(self, action: #selector(showImagePicker), for: .touchUpInside)
+        self.view.addSubview(photoPickerButton)
+    }
+    
+    
     @objc private func showImagePicker() {
         if #available(iOS 14, *) {
             if let picker = photoPicker as? PHPhotoPicker {
@@ -250,9 +273,11 @@ public class QRCodeScannerController: UIViewController,
     
     //MARK: - Setup and start capturing session
     
-    private func startScanningQRCode() {
+   private func startScanningQRCode() {
         if captureSession.isRunning { return }
-        captureSession.startRunning()
+        DispatchQueue.global(qos: .background).async {
+            self.captureSession.startRunning()
+        }
     }
     
     private func setupCaptureSession(_ devicePostion: AVCaptureDevice.Position) {

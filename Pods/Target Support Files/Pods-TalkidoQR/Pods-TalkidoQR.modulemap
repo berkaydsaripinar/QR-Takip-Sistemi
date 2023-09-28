@@ -1,6 +1,0 @@
-framework module Pods_TalkidoQR {
-  umbrella header "Pods-TalkidoQR-umbrella.h"
-
-  export *
-  module * { export * }
-}
