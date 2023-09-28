@@ -1,0 +1,28 @@
+PODS:
+  - PDFGenerator (3.1.0)
+  - SwiftQRScanner (1.1.5)
+
+DEPENDENCIES:
+  - PDFGenerator
+  - SwiftQRScanner (from `https://github.com/vinodiOS/SwiftQRScanner`)
+
+SPEC REPOS:
+  trunk:
+    - PDFGenerator
+
+EXTERNAL SOURCES:
+  SwiftQRScanner:
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+CHECKOUT OPTIONS:
+  SwiftQRScanner:
+    :commit: 640b4216478e4b67833a2be88a43ed324c7f928a
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+SPEC CHECKSUMS:
+  PDFGenerator: 17d6bc525db0a3fcd156fbf00f9d1b8d5cc75d1e
+  SwiftQRScanner: c4824d46d6af3e595a1a895b1c0c117da66da394
+
+PODFILE CHECKSUM: a14e2a8eced7ae4a74b36f5051ab3ee7b45b2a1f
+
+COCOAPODS: 1.12.1
