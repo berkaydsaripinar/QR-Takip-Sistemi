@@ -3,6 +3,8 @@
 
 Bu uygulama, küçük ve orta ölçekli şirketler için özel olarak tasarlanmış bir QR kod sistemi içerir. Kullanıcılar giriş ve çıkış işlemleri için QR kodlarını tarayabilirler. Ayırca anlık olarak ofiste olanları görüntülebilirler.
 
+**NOT: Projenin temel özellikleri de dahil olmak üzere tamamiyle kullanılabilir bir durumda değildir. Halihazırda, üzerine kattığım Swift ve iOS bilgimle geliştirmeye devam etmekteyim.**
+
 ## Başlangıç
 
 Bu uygulamayı yerel bir geliştirme ortamında çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
