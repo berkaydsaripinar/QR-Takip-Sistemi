@@ -24,10 +24,10 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signUpButton(_ sender: Any) {
-        if companyNameTextField.text != "" || managerNameTextField.text != "" || managerTelTextField.text != "" || maanagerMailTextField.text != ""{
+      
           
         }
-    }
+    
     
     
     

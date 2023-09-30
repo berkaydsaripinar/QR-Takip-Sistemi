@@ -13,7 +13,6 @@
 		840559D92A52BD81008E01F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840559D72A52BD81008E01F7 /* Main.storyboard */; };
 		840559DB2A52BD84008E01F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840559DA2A52BD84008E01F7 /* Assets.xcassets */; };
 		840559DE2A52BD84008E01F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840559DC2A52BD84008E01F7 /* LaunchScreen.storyboard */; };
-		840559F52A52F46E008E01F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840559F42A52F46E008E01F7 /* GoogleService-Info.plist */; };
 		8424BFA02A5B1B5D00765D46 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8424BF9F2A5B1B5D00765D46 /* FirebaseAnalytics */; };
 		8424BFA22A5B1B5D00765D46 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 8424BFA12A5B1B5D00765D46 /* FirebaseAnalyticsOnDeviceConversion */; };
 		8424BFA42A5B1B5D00765D46 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8424BFA32A5B1B5D00765D46 /* FirebaseAnalyticsSwift */; };
@@ -43,6 +42,7 @@
 		8424BFD42A5B1B5E00765D46 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8424BFD32A5B1B5E00765D46 /* FirebaseStorageCombine-Community */; };
 		84B78B742A5D3EBD00566756 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78B732A5D3EBD00566756 /* ControlViewController.swift */; };
 		84BA164C2A5E95A60097829C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA164B2A5E95A60097829C /* TableViewCell.swift */; };
+		C838F97A2AC8895A00C22388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840559DF2A52BD84008E01F7 /* GoogleService-Info.plist */; };
 		C84F48542A66E920003F5E5B /* OnlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F48532A66E920003F5E5B /* OnlineTableViewCell.swift */; };
 		C86F4BCD2A78E1E40031C1DA /* LateComersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F4BCC2A78E1E40031C1DA /* LateComersTableViewCell.swift */; };
 		C86F4BCF2A78E2150031C1DA /* LateComersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F4BCE2A78E2150031C1DA /* LateComersViewController.swift */; };
@@ -62,8 +62,7 @@
 		840559D82A52BD81008E01F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840559DA2A52BD84008E01F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840559DD2A52BD84008E01F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		840559DF2A52BD84008E01F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		840559F42A52F46E008E01F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		840559DF2A52BD84008E01F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84B78B732A5D3EBD00566756 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
 		84BA164B2A5E95A60097829C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		AC62A2132661478823499125 /* Pods-WINTO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WINTO.debug.xcconfig"; path = "Target Support Files/Pods-WINTO/Pods-WINTO.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,8 +143,7 @@
 				C88FCE1A2A69DC3A0070D271 /* Views */,
 				C88FCE192A69DC140070D271 /* TableViews */,
 				C88FCE172A69DBD50070D271 /* Controllers */,
-				840559F42A52F46E008E01F7 /* GoogleService-Info.plist */,
-				840559DF2A52BD84008E01F7 /* Info.plist */,
+				840559DF2A52BD84008E01F7 /* GoogleService-Info.plist */,
 			);
 			path = WINTO;
 			sourceTree = "<group>";
@@ -303,9 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				840559DE2A52BD84008E01F7 /* LaunchScreen.storyboard in Resources */,
+				C838F97A2AC8895A00C22388 /* GoogleService-Info.plist in Resources */,
 				840559DB2A52BD84008E01F7 /* Assets.xcassets in Resources */,
 				840559D92A52BD81008E01F7 /* Main.storyboard in Resources */,
-				840559F52A52F46E008E01F7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
