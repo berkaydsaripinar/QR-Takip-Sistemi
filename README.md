@@ -19,7 +19,7 @@ Bu uygulamayı yerel bir geliştirme ortamında çalıştırmak için aşağıda
 
 1. Bu projeyi klonlayın.
    ```sh
-   git clone https://github.com/berkaydsaripinar/QR-Kod-Takip-Sistemi.git
+   git clone https://github.com/berkaydsaripinar/QR-Takip-Sistemi.git
 Firebase konfigürasyon dosyasını ekleyin.
 
 Firebase projesi oluşturun ve konfigürasyon dosyasını Xcode projesine ekleyin.
