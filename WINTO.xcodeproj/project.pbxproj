@@ -526,7 +526,7 @@
 				DEVELOPMENT_TEAM = V998CH9F2W;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TalkidoQR/Info.plist;
+				INFOPLIST_FILE = WINTO/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ofiste Kim Var?";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSCameraUsageDescription = "\"Bu uygulama, QR kodları tarayabilmek için kamera erişimine ihtiyaç duyar.\"";
@@ -566,7 +566,7 @@
 				DEVELOPMENT_TEAM = V998CH9F2W;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TalkidoQR/Info.plist;
+				INFOPLIST_FILE = WINTO/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ofiste Kim Var?";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSCameraUsageDescription = "\"Bu uygulama, QR kodları tarayabilmek için kamera erişimine ihtiyaç duyar.\"";

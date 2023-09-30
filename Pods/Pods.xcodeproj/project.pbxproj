@@ -20,7 +20,7 @@
 		B900628F51B3071AB51430E05BEEA7E8 /* QRCodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA89891C0DEE62F2F99CEC2EBFFBBE /* QRCodeError.swift */; };
 		B97A73285F83C17DA3C56C3265444597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920BB2E2B772D5A8DA15A5E82113DECE /* UIKit.framework */; };
 		CADDC7029FEC374A85B81A1F18540C5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B0370C0172CADE12120E24C25922D2 /* CoreGraphics.framework */; };
-		CC0A9AEC47F0516EEFDBC68E0BC6156A /* SwiftQRScanner-SwiftQRScanner in Resources */ = {isa = PBXBuildFile; fileRef = CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner-SwiftQRScanner */; };
+		CC0A9AEC47F0516EEFDBC68E0BC6156A /* SwiftQRScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */; };
 		D0580F17E2E946CD50DB2503995CE439 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B4A09D236016B2D329924B97C69CC /* UIImage+Extension.swift */; };
 		E217584FBE23E089ACF4E9302065C994 /* SwiftQRScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA628C17C6FDE2C1B002BDB1118486 /* SwiftQRScannerDelegate.swift */; };
 		E2BD75E954D69893528FFD791C3B5718 /* SwiftQRScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A842CECF0928A14E1D931FBE78D799A /* SwiftQRScanner-dummy.m */; };
@@ -66,10 +66,10 @@
 		8A38C0F7CEF450E7B4D251E932A35FAE /* Pods-WINTO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WINTO-acknowledgements.markdown"; sourceTree = "<group>"; };
 		920BB2E2B772D5A8DA15A5E82113DECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		981B4A09D236016B2D329924B97C69CC /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "Sources/SwiftQRCodeScanner/UIImage+Extension.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25712BB0273C7F6F3C9F89BA72DCFFC /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/SwiftQRCodeScanner/Configuration.swift; sourceTree = "<group>"; };
 		C9E2A94A4965418C290F6E712F48B9BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner-SwiftQRScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SwiftQRScanner-SwiftQRScanner"; path = SwiftQRScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftQRScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3462BA83927DD6B2BAB090CDE174D59 /* SwiftQRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftQRScanner.release.xcconfig; sourceTree = "<group>"; };
 		DB654F39CFCDE9614F495C712501699B /* Pods-WINTO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WINTO.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA5C62656BC305DD9F8E66DA1E21E52 /* Pods-WINTO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WINTO-dummy.m"; sourceTree = "<group>"; };
@@ -123,7 +123,6 @@
 				981B4A09D236016B2D329924B97C69CC /* UIImage+Extension.swift */,
 				AD99FC3B1EDD058B5E9716D0E6AA7E37 /* Support Files */,
 			);
-			name = SwiftQRScanner;
 			path = SwiftQRScanner;
 			sourceTree = "<group>";
 		};
@@ -211,7 +210,7 @@
 			children = (
 				24CEE02C7AEC61B2F19060B5427ED5F7 /* Pods-WINTO */,
 				F562FAF316F5CCDE21F64621E44F5F18 /* SwiftQRScanner */,
-				CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner-SwiftQRScanner */,
+				CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,7 +270,7 @@
 			);
 			name = "SwiftQRScanner-SwiftQRScanner";
 			productName = SwiftQRScanner;
-			productReference = CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner-SwiftQRScanner */;
+			productReference = CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		FD06EAB8261909A3CA2E2CC352539971 /* Pods-WINTO */ = {
@@ -334,7 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0A9AEC47F0516EEFDBC68E0BC6156A /* SwiftQRScanner-SwiftQRScanner in Resources */,
+				CC0A9AEC47F0516EEFDBC68E0BC6156A /* SwiftQRScanner.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +604,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftQRScanner";
 				IBSC_MODULE = SwiftQRScanner;
 				INFOPLIST_FILE = "Target Support Files/SwiftQRScanner/ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = SwiftQRScanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -696,7 +695,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftQRScanner";
 				IBSC_MODULE = SwiftQRScanner;
 				INFOPLIST_FILE = "Target Support Files/SwiftQRScanner/ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = SwiftQRScanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

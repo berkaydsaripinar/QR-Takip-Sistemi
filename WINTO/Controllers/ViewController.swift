@@ -213,13 +213,13 @@ class ViewController: UIViewController, QRScannerCodeDelegate {
             let userEmailAddress = currentUser.email
             if userEmailAddress == "admin@example.com"{
                 adminBtn.isEnabled = true
-                qrCodeImageView.isHidden = true
+                qrCodeImageView.isHidden = false
             }
             else if userEmailAddress == "berkay@example.com"{
                 adminBtn.isEnabled = true
-                qrCodeImageView.isHidden = true
+                qrCodeImageView.image = UIImage(named: "logo")
             }
-            else if userEmailAddress == "berkay@example.com"{
+            else if userEmailAddress == "eren@example.com"{
                 adminBtn.isEnabled = false
                 qrCodeImageView.isHidden = false
                 
