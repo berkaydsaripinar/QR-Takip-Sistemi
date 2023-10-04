@@ -217,7 +217,7 @@ class ViewController: UIViewController, QRScannerCodeDelegate {
             }
             else if userEmailAddress == "berkay@example.com"{
                 adminBtn.isEnabled = true
-                qrCodeImageView.image = UIImage(named: "logo")
+              //  qrCodeImageView.image = UIImage.init(systemName: "person.crop.circle.dashed.circle")
             }
             else if userEmailAddress == "eren@example.com"{
                 adminBtn.isEnabled = false
